@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
+# SpeakSafe AI
 
-## Project info
+**One-line:**  
+A simple web app that uses AI to detect online harassment, threats, or abusive messages toward women and girls and guides them on what to do next.
 
-**URL**: https://lovable.dev/projects/80530b80-735b-4ffe-9e7c-58a02d004e4a
+---
 
-## How can I edit this code?
+## 🚀 What is SpeakSafe AI?
 
-There are several ways of editing your application.
+SpeakSafe AI is a lightweight, web-based tool designed to empower women and girls by helping them understand if a message they received is abusive or harmful — and what to do about it.  
+No bots, no complicated systems: just input → AI detection → guidance → safe evidence storage.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/80530b80-735b-4ffe-9e7c-58a02d004e4a) and start prompting.
+## 💡 The Problem
 
-Changes made via Lovable will be committed automatically to this repo.
+Many women and girls in online spaces face harassment, but they often don’t know:
 
-**Use your preferred IDE**
+- Whether a message is just “normal talk” or is actually harmful  
+- What next steps to take (report, block, reach out)  
+- How to safely store proof of abuse  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+SpeakSafe AI fills that gap by giving instant clarity and actionable advice.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧪 How It Works
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. A user pastes or types a message into a text box.  
+2. The AI analyzes the message using a toxicity / harassment detection model.  
+3. The app returns a result, indicating:  
+   - ✅ *Safe*  
+   - ⚠️ *Harmful*  
+   - 🚨 *Dangerous*  
+4. Based on the result, the app offers clear guidance, such as:  
+   - “Block & report”  
+   - “Save as evidence”  
+   - “Contact local helpline”  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ✨ Main Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **AI Harassment Checker**  
+  Paste text → click “Check” → get a score + category.  
 
-**Edit a file directly in GitHub**
+- **Save Evidence**  
+  Save harmful or dangerous messages to a secure list for reference.  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Resources Section**  
+  A static list of helplines and support services (e.g., for Tanzania) to provide real-world help.  
 
-**Use GitHub Codespaces**
+- **History Page**  
+  View previously saved reports / messages, so users can revisit or export them.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🔗 Live App
 
-This project is built with:
+You can access the live version of the app here:  
+[SpeakSafe AI on Lovable](https://speak-safe-spot.lovable.app)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🛠️ Technology Stack
 
-Simply open [Lovable](https://lovable.dev/projects/80530b80-735b-4ffe-9e7c-58a02d004e4a) and click on Share -> Publish.
+- **Frontend:** React + Tailwind CSS  
+- **Backend:** Node.js + Express  
+- **Database:** MongoDB  
+- **AI / NLP:** Toxicity detection via a hosted API (e.g., Hugging Face) or OpenAI  
+- **Hosting:** Your Lovable app + any backend host (e.g., Render, Heroku)
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🛡️ Privacy & Safety Considerations
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- The app **does not require personal registration** — users can use it anonymously.  
+- Messages labeled as “harmful” or “dangerous” can be saved locally in a **secure way** via the app’s history.  
+- Sensitive data should be encrypted if stored (depending on your implementation).  
+- Provide clear disclaimers that SpeakSafe AI is **not a substitute for legal help or emergency services** — and encourage users to contact trusted resources or professionals when needed.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📈 Future Improvements
+
+Here are some ideas for future versions of SpeakSafe AI:
+
+- Add language support for more African languages  
+- Enable users to export saved evidence in a shareable format  
+- Integrate a “report to authorities / NGOs” feature  
+- Add real-time sentiment tracking or conversation analysis  
+- Build a mobile PWA (Progressive Web App) for offline support  
+- Introduce user accounts (optional) with encrypted storage  
+
+---
+
+## 🙌 Contributing
+
+Feel free to contribute to SpeakSafe AI! Whether by:
+
+- Improving the UI / UX  
+- Adding new language models or toxicity classifications  
+- Updating the helpline / resources list  
+- Enhancing data privacy & encryption features  
+
+1. Fork the repo  
+2. Create a feature branch  
+3. Make your changes  
+4. Submit a pull request  
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and distribute it.
+
+---
+
+## 📞 Contact
+
+If you want to reach out, you can email / message me at:  
+**[Your Name]** — *your.email@example.com*
+
+---
+
+Welcome to SpeakSafe AI — building safer digital spaces, one message at a time.  
