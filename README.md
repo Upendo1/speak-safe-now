@@ -66,9 +66,9 @@ You can access the live version of the app here:
 
 - **Frontend:** React + Tailwind CSS  
 - **Backend:** Node.js + Express  
-- **Database:** MongoDB  
-- **AI / NLP:** Toxicity detection via a hosted API (e.g., Hugging Face) or OpenAI  
-- **Hosting:** Your Lovable app + any backend host (e.g., Render, Heroku)
+- **Database:** Superbase  
+- **AI / NLP:** Toxicity detection via a hosted API: OpenAI  
+- **Hosting:** Your Lovable app 
 
 ---
 
@@ -94,32 +94,11 @@ Here are some ideas for future versions of SpeakSafe AI:
 
 ---
 
-## 🙌 Contributing
-
-Feel free to contribute to SpeakSafe AI! Whether by:
-
-- Improving the UI / UX  
-- Adding new language models or toxicity classifications  
-- Updating the helpline / resources list  
-- Enhancing data privacy & encryption features  
-
-1. Fork the repo  
-2. Create a feature branch  
-3. Make your changes  
-4. Submit a pull request  
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and distribute it.
-
----
 
 ## 📞 Contact
 
 If you want to reach out, you can email / message me at:  
-**[Your Name]** — *your.email@example.com*
+**[Upendo Chacha]** — *upendochacha@gmail.com*
 
 ---
 
